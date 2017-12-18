@@ -12,7 +12,7 @@ export default () => (
             header {
                 display: flex;
                 justify-content: space-between;
-                border: 1px solid black
+                align-items: center
             }
         `}</style>
     </header>
