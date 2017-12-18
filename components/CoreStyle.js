@@ -1,5 +1,5 @@
 const colors = {
-    primary: 'magenta',
+    primary: 'teal',
     secondary: 'black'
 }
 
