@@ -4,8 +4,9 @@ export default () => (
     <div>
         <style jsx>{`
             $ColorPrimary: ${ colors.primary };
+            $ColorSecondary: ${ colors.secondary };
             :global(body) {
-                margin: auto;
+                margin: 0;
                 font-family: 'Roboto', sans-serif;
                 color: '#333';
             }
