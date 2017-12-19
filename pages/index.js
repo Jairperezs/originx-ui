@@ -7,15 +7,15 @@ import Button from '../components/Button'
 
 function addPost(e) {
     e.preventDefault()
-    let username = e.target['username'].value
-    console.log(username)
+    let namepost = e.target['namepost'].value
+    console.log(namepost)
 }
 
 function PostForm() {
     return (
         <form onSubmit={addPost}>
-            <Input placeholder="text here" name="username" />
-            <Button value="addPost" type="primary" /> 
+            <Input placeholder="placeholder here" name="namepost" label="Label here" />
+            <Button value="Button here" type="primary" /> 
         </form>
     )
 }
