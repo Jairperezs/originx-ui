@@ -1,13 +1,12 @@
 import Link from './Link'
 
-export default () => (
+export default ({ children }) => (
     <header>
         <section>
             <h1>Logo</h1>  
         </section>
         <nav>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
+            { children }
         </nav>
         <style jsx>{`
             header {

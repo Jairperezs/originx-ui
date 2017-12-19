@@ -1,9 +1,10 @@
 export default ({ placeholder }) => (
     <div>
-        <input placeholder={placeholder} />
+        <input placeholder={placeholder ? placeholder : 'Text placeholder here'} />
         <style jsx>{`
             input {
-                padding: .4em;
+                padding: 8px;
+                margin: 4px;
                 border: 1px solid gray;
                 border-radius: 4px
             }

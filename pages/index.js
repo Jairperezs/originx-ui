@@ -1,12 +1,22 @@
 import Layout from '../components/layout'
 import { weight } from '../components/CoreStyle'
 import Header from '../components/Header'
-import Form from '../components/Form'
+import Footer from '../components/Footer'
 import Input from '../components/Inputs'
 import Button from '../components/Button'
 
-function addPost() {
-    return console.log('Hello Post!!')
+function addPost(e) {
+    e.preventDefault()
+    console.log('Hello post!!')
+}
+
+function PostForm() {
+    return (
+        <form onSubmit={addPost}>
+            <Input placeholder="text here" />
+            <Button value="addPost" type="primary" /> 
+        </form>
+    )
 }
 
 export default () => (
@@ -14,11 +24,9 @@ export default () => (
         <Header />
         <main>
             <h1>Welcome to Originx UI</h1>
-            <Form OnSubmit={addPost()}>
-                <Input placeholder="Text here" />
-                <Button value="Enviar" type="primary" />
-            </Form>
+            <PostForm />
         </main>
+        <Footer />
         <style jsx>{`
             h1 {
                 font-weight: ${weight.light};
