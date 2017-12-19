@@ -1,0 +1,19 @@
+{
+  "name": "originx-ui",
+  "version": "1.0.0",
+  "description": "Originx UI",
+  "main": "index.js",
+  "scripts": {
+    "start": "next start",
+    "dev": "next"
+  },
+  "author": "Jair Perez",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^4.3.0-canary.1",
+    "node-sass": "^4.7.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-jsx-plugin-sass": "^0.2.2"
+  }
+}
