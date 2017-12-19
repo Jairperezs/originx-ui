@@ -1,7 +1,8 @@
 import { colors } from './CoreStyle'
-export default ({ placeholder }) => (
+
+export default ({ placeholder, name }) => (
     <div>
-        <input placeholder={placeholder ? placeholder : 'Text placeholder here'} />
+        <input name={name} placeholder={placeholder ? placeholder : 'Text placeholder here'} />
         <style jsx>{`
             $BorderColor: ${ colors.border };
             input {
