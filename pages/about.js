@@ -8,7 +8,7 @@ export default () => (
     <Layout title="About page">
         <Header>
             <Link href="/">Home</Link>
-            <Link href="/">Iniciar sesion</Link>
+            <Link href="/">Link here</Link>
         </Header>
         <main>
             <div className="content">
