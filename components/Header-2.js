@@ -1,3 +1,4 @@
+import { colors } from './CoreStyle'
 import Link from './Link'
 
 export default ({ children }) => (
@@ -10,9 +11,12 @@ export default ({ children }) => (
         </nav>
         <style jsx>{`
             header {
+                $BorderColor: ${ colors.border };
+                padding: 4px;
                 display: flex;
                 justify-content: space-between;
-                align-items: center
+                align-items: center;
+                border-bottom: 1px solid $BorderColor;
             }
         `}</style>
     </header>

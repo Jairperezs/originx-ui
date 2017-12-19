@@ -1,3 +1,4 @@
+import { colors } from './CoreStyle'
 import Link from './Link'
 
 export default () => (
@@ -10,10 +11,13 @@ export default () => (
             <Link href='/about'>About</Link>
         </nav>
         <style jsx>{`
+            $BorderColor: ${ colors.border };
             header {
+                padding: 4px;
                 display: flex;
                 justify-content: space-between;
-                align-items: center
+                align-items: center;
+                border-bottom: 1px solid $BorderColor;
             }
         `}</style>
     </header>
