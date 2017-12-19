@@ -1,0 +1,18 @@
+export default ({ title, children }) => (
+    <div className='post-content'>
+        <h1>{ title }</h1>
+        { children }
+        <style jsx>{`
+          .post-content {
+            font: 14px 'Roboto', sans-serif;
+            border: 1px solid #eee;
+            padding: 0 10px;
+          }
+          h1 {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+          }
+        `}</style>
+    </div>
+  )

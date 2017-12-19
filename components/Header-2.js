@@ -1,18 +1,17 @@
 import { colors } from './CoreStyle'
 import Link from './Link'
 
-export default () => (
+export default ({ children }) => (
     <header>
         <section>
             <h1>Logo</h1>  
         </section>
         <nav>
-            <Link href='/'>Home</Link>
-            <Link href='/about'>About</Link>
+            { children }
         </nav>
         <style jsx>{`
-            $BorderColor: ${ colors.border };
             header {
+                $BorderColor: ${ colors.border };
                 padding: 4px;
                 display: flex;
                 justify-content: space-between;

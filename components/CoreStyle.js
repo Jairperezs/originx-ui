@@ -1,6 +1,7 @@
 const colors = {
     primary: 'teal',
-    secondary: 'black'
+    secondary: 'black',
+    border: '#eee'
 }
 
 const weight = {
