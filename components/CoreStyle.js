@@ -11,4 +11,8 @@ const weight = {
     bold: '600'
 }
 
-export { colors, weight }
+const width = {
+    maxWidth: '1200px'
+}
+
+export { colors, weight, width }

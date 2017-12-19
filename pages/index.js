@@ -23,8 +23,10 @@ export default () => (
     <Layout title='Inicio'>
         <Header />
         <main>
-            <h1>Welcome to Originx UI</h1>
-            <PostForm />
+            <div className="content">
+                <h1>Welcome to Originx UI</h1>
+                <PostForm />
+            </div>
         </main>
         <Footer />
         <style jsx>{`

@@ -10,10 +10,14 @@ export default () => (
             <Link href="/">Home</Link>
             <Link href="/">Iniciar sesion</Link>
         </Header>
-        <Post title="About content">
-            <P>
-                Text here
-            </P>
-        </Post>
+        <main>
+            <div className="content">
+                <Post title="About content">
+                    <P>
+                        Text here
+                    </P>
+                </Post>
+            </div>
+        </main>
     </Layout>
 )
