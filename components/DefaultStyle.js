@@ -1,4 +1,4 @@
-import { colors } from '../components/CoreStyle'
+import { colors, width } from '../components/CoreStyle'
 
 export default () => (
     <div>
@@ -13,6 +13,11 @@ export default () => (
             :global(a) {
                 text-decoration: none;
                 &:hover { text-decoration: underline }
+            }
+            :global(.content) {
+                max-width: ${width.maxWidth};
+                margin-left: auto;
+                margin-right: auto
             }
         `}</style>
     </div>

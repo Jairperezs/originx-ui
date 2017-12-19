@@ -3,20 +3,24 @@ import Link from './Link'
 
 export default ({ children }) => (
     <header>
-        <section>
-            <h1>Logo</h1>  
-        </section>
-        <nav>
-            { children }
-        </nav>
+        <div className="content">
+            <section>
+                <h1>Logo</h1>  
+            </section>
+            <nav>
+                { children }
+            </nav>
+        </div>
         <style jsx>{`
+            $BorderColor: ${ colors.border };
             header {
-                $BorderColor: ${ colors.border };
+                border-bottom: 1px solid $BorderColor;
+            }
+            .content {
                 padding: 4px;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                border-bottom: 1px solid $BorderColor;
             }
         `}</style>
     </header>
