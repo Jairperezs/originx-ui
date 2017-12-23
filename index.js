@@ -1,2 +1,4 @@
-const Button = require('./components/Button.js')
-export.Button = Button
+"use strict";
+exports.__esModule = true;
+var Button_1 = require("./components/Button");
+exports.Button = Button_1["default"];
