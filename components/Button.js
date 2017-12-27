@@ -1,5 +1,6 @@
-import { colors, weight } from '../components/CoreStyle'
-export default ({value, type}) => (
+const { colors, weight } = require('../components/CoreStyle')
+
+module.exports = ({value, type}) => (
     <div>
         <button>{ value }</button>
         <style jsx>{`
