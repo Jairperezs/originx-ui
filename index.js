@@ -1,4 +1,3 @@
-"use strict";
-exports.__esModule = true;
-var Button_1 = require("./components/Button");
-exports.Button = Button_1["default"];
+const { colors } = require('./components/CoreStyle')
+
+console.log('Originx-ui, Primary: ' + colors.primary)
