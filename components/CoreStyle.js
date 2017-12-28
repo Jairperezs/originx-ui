@@ -15,4 +15,4 @@ const width = {
     maxWidth: '1200px'
 }
 
-module.exports = { colors, weight, width }
+export { colors, weight, width }
