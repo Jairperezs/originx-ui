@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import DefaultStyle from '../components/DefaultStyle'
+import DefaultStyle from './DefaultStyle'
 
 export default ({ children, title='Title here' }) => (
     <div>

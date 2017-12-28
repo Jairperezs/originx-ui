@@ -1,4 +1,4 @@
-import { colors, width } from '../components/CoreStyle'
+import { colors, width } from './CoreStyle'
 
 export default () => (
     <div>
