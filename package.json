@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Originx UI",
   "main": "index.js",
+  "now": {
+    "name": "originx-ui",
+    "alias": "originx-ui.now.sh"
+  },
   "scripts": {
     "start": "next start",
     "dev": "next"
