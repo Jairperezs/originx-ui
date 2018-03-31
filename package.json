@@ -9,6 +9,7 @@
   },
   "scripts": {
     "start": "next start",
+    "build": "next build",
     "dev": "next"
   },
   "author": "Jair Perez",
